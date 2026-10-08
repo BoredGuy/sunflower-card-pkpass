@@ -1,0 +1,57 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.hiddendisabilities.sunflower",
+  "serialNumber": "HDSC-{{SERIAL}}",
+  "teamIdentifier": "{{TEAM_ID}}",
+  "organizationName": "Hidden Disabilities Sunflower",
+  "description": "Hidden Disabilities Sunflower Card - Some disabilities are hidden",
+  "logoText": "Hidden Disabilities Sunflower",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(0, 99, 65)",
+  "labelColor": "rgb(255, 199, 44)",
+  "barcode": {
+    "format": "PKBarcodeFormatQR",
+    "message": "https://hdsunflower.com",
+    "messageEncoding": "iso-8859-1"
+  },
+  "generic": {
+    "primaryFields": [
+      {
+        "key": "cardtype",
+        "label": "Card",
+        "value": "Hidden Disabilities Sunflower"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "message",
+        "label": "Purpose",
+        "value": "Indicates I may need extra help or understanding"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "status",
+        "label": "Status",
+        "value": "Valid"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "about",
+        "label": "What is this?",
+        "value": "The Hidden Disabilities Sunflower is a discreet symbol worn by people with hidden disabilities. It helps people in public spaces who may need extra help or understanding."
+      },
+      {
+        "key": "message2",
+        "label": "Message",
+        "value": "Some disabilities are hidden. Please offer me help if I need it."
+      },
+      {
+        "key": "colors",
+        "label": "Official Colors",
+        "value": "Dark Green (#006341), Sunflower Yellow (#FFC72C), Leaf Green (#00A651)"
+      }
+    ]
+  }
+}
